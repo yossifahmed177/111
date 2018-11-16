@@ -88,17 +88,16 @@ m.sendMessage(args)
      const embed = new Discord.RichEmbed() 
          .setColor("#00FF00")
          .setThumbnail(message.author.avatarURL)
-         .setDescription(`**Help|هيلب
-
+         .setDescription(`**Help | المساعدة
        *bc | لأرسال برود كاست للكل
            ─══════════════─
        *obc  |  لأرسال برود كاست للأونلاين
            ─══════════════─
-	   *nbc |  بدون منشن للشخص
+       *nbc |  بدون منشن للشخص
 	       ─══════════════─
-	   *bot | معلومات عن بوت 
+       *bot | معلومات عن بوت 
 	       ─══════════════─
-	   *avatar | هذا الامر يعطك صورت لي تبي تمنشنو او صورتك 
+       *avatar | هذا الامر يعطك صورت لي تبي تمنشنو او صورتك 
 	       ─══════════════─
 ** `)
    message.author.sendEmbed(embed)
